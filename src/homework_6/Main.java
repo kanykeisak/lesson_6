@@ -11,8 +11,9 @@ public class Main {
         bossWeapon.setName("Fire Staff");
         boss.setWeapon(bossWeapon);
 
+        System.out.println("Boss Info:");
         boss.printInfo();
-        System.out.println();
+
 
 
         //10.
@@ -21,7 +22,7 @@ public class Main {
         skeleton1.setDamage(50);
         skeleton1.setArrowsCount(20);
         Weapon skeletonWeapon1 = new Weapon();
-        skeletonWeapon1.setType(WeaponType.RANGED);
+        skeletonWeapon1.setType(WeaponType.ARROW);
         skeletonWeapon1.setName("Bow");
         skeleton1.setWeapon(skeletonWeapon1);
 
@@ -30,13 +31,12 @@ public class Main {
         skeleton2.setDamage(45);
         skeleton2.setArrowsCount(15);
         Weapon skeletonWeapon2 = new Weapon();
-        skeletonWeapon2.setType(WeaponType.MELEE);
+        skeletonWeapon2.setType(WeaponType.KHIFE);
         skeletonWeapon2.setName("Crossbow");
         skeleton2.setWeapon(skeletonWeapon2);
 
         System.out.println("Skeleton 1 Info:");
         skeleton1.printInfo();
-        System.out.println();
         System.out.println("Skeleton 2 Info:");
         skeleton2.printInfo();
     }

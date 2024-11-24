@@ -13,7 +13,6 @@ public class Boss extends GameEntity {
 
     //6.
     public void printInfo() {
-        System.out.println("Boss Info:");
         System.out.println("Health: " + getHealth() +
                 ", Damage: " + getDamage() +
                 ", Weapon Type: " + weapon.getType() +
